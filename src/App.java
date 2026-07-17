@@ -1,3 +1,12 @@
+ /*
+    Autores
+Breno Meira Silva - 23.2.8005
+João Henrique da Silva Guimarães - 23.2.8111
+Luana da Silva Ferreira - 23.1.8029
+
+*/
+
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
