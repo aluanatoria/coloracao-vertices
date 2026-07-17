@@ -1,0 +1,17 @@
+JAVAC = javac
+JAVA = java
+SCR_DIR = scr
+BIN_DIR = bin
+MAIN_CLASS = App
+
+all: compile
+
+compile:
+		@mkdir -p $(BIN_DIR)
+		$(JAVAC) -D $(BIN_DIR)/*.java
+
+run: compile
+		$(JAVA) -cp $(BIN_DIR) $(MAIN_CLASS)
+
+clean:
+		rm -rf $(BIN_DIR)/.class
