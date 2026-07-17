@@ -4,7 +4,7 @@ public class App {
     public static void main(String[] args) {
         try {
 
-            String caminho = "instancias/instancia_100_1000.txt";
+            String caminho = "instancias/instancia_1000_200000.txt";
             
             Grafo grafo = LerGrafo.carregarGrafo(caminho);
 
