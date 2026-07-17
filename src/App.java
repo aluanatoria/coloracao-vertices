@@ -17,7 +17,7 @@ public class App {
             return;
             }
 
-            System.out.println("SELEÇÃO DE INSTÂNCIAS DE TESTE");
+            System.out.println("\nSELEÇÃO DE INSTÂNCIAS DE TESTE");
             System.out.println("------------------------------------------------------");
 
             for (int i = 0; i < arquivos.length; i++) {
